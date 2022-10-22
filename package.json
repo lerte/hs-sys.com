@@ -6,7 +6,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "push": "push-dir --dir=public --branch=gh-pages --cleanup --force --verbose"
   },
   "dependencies": {
     "core-js": "^3.25.3",
@@ -19,6 +21,7 @@
     "@nuxt/postcss8": "^1.1.3",
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.18",
+    "push-dir": "^0.4.1",
     "tailwindcss": "^3.2.0"
   }
 }
