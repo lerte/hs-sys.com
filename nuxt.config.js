@@ -69,10 +69,10 @@ export default {
         const cheerio = require('cheerio')
         const $ = cheerio.load(page.html, { decodeEntities: false })
         const attrs = [
-          'data-n-head-ssr',
-          'data-n-head',
           'data-hid',
+          'data-n-head',
           'data-vue-ssr-id',
+          'data-n-head-ssr',
           'data-server-rendered'
         ]
         attrs.forEach((value) => {
