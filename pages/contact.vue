@@ -3,7 +3,9 @@
     class="mx-auto h-[calc(100vh-128px)] p-4 bg-white dark:bg-gray-500 md:flex md:items-center md:justify-around"
   >
     <Sidebar />
-    <section>
+    <article
+      class="w-1/2 text-gray-500 dark:text-gray-400 shadow-md p-10 bg-gray-50 rounded dark:bg-gray-800"
+    >
       <p class="text-xl font-bold text-gray-500 dark:text-gray-400">
         英國皇室音響
       </p>
@@ -15,7 +17,7 @@
         <li>郵 箱：hs_sys@163.com</li>
         <li>地 址：廣州市花都區花東鎮先科一路8號微觀智庫產業園B棟6F</li>
       </ul>
-    </section>
+    </article>
   </main>
 </template>
 
