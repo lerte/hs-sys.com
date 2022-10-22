@@ -1,5 +1,7 @@
 <template>
-  <footer class="p-4 bg-white md:p-6 dark:bg-gray-800">
+  <footer
+    class="fixed bottom-0 left-0 z-20 p-4 w-full bg-white md:p-5 dark:bg-gray-800"
+  >
     <section
       class="max-w-screen-xl mx-auto md:flex md:items-center md:justify-between"
     >
