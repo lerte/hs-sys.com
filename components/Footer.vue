@@ -6,7 +6,7 @@
       <span
         class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0"
       >
-        版權所有(C) 2013 皇室音響（廣州）有限公司
+        版權所有 &copy; 2013-{{ currentYear }} 皇室音響（廣州）有限公司
       </span>
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
         >地址：廣州市花都區花東鎮先科一路8號微觀智庫產業園B棟6F
@@ -15,3 +15,12 @@
     </section>
   </footer>
 </template>
+
+<script>
+export default {
+  name: 'Footer',
+  data: () => ({
+    currentYear: new Date().getFullYear()
+  })
+}
+</script>
