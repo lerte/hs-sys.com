@@ -10,10 +10,13 @@ cache:
 install:
   - yarn
   - yarn generate
+script:
+  - echo "Skipping tests"
 deploy:
   provider: pages
   local_dir: public
   skip_cleanup: true
   target_branch: gh-pages
+  github-token: $GITHUB_ACCESS_TOKEN
   on:
     branch: master
