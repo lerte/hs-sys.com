@@ -1,12 +1,15 @@
 <template>
   <ul class="grid grid-cols-3 gap-4">
-    <li v-for="(item, index) in list" :key="index">
-      <img :src="item" alt="成功案例" />
+    <li v-for="product in list" :key="product.id">
+      <nuxt-link :to="`/product/${product.id}`">
+        <img :src="product.image" :alt="product.title" />
+      </nuxt-link>
     </li>
   </ul>
 </template>
 
 <script>
+import list from '@/contents/products.json'
 export default {
   head() {
     return {
@@ -14,7 +17,7 @@ export default {
     }
   },
   data: () => ({
-    list: []
+    list
   })
 }
 </script>
