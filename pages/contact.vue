@@ -1,7 +1,5 @@
 <template>
-  <article
-    class="w-1/2 text-gray-500 dark:text-gray-400 shadow-md p-10 bg-gray-50 rounded dark:bg-gray-800"
-  >
+  <section>
     <p class="pb-4 text-xl font-bold text-gray-500 dark:text-gray-400">
       英國皇室音響
     </p>
@@ -18,7 +16,7 @@
       </li>
       <li>地 址：廣州市花都區花東鎮先科一路8號微觀智庫產業園B棟6F</li>
     </ul>
-  </article>
+  </section>
 </template>
 
 <script>

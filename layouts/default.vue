@@ -2,10 +2,18 @@
   <div class="dark:bg-grey-900">
     <Header />
     <main
-      class="min-h-[calc(100vh-120px)] mx-auto pt-10 pb-16 bg-white dark:bg-gray-500 md:flex md:items-center md:justify-around"
+      class="min-h-[calc(100vh-160px)] md:min-h-[calc(100vh-120px)] flex flex-wrap md:flex-nowrap bg-white dark:bg-gray-500"
     >
-      <Sidebar />
-      <Nuxt />
+      <aside
+        class="w-full m-2 p-2 flex flex-col md:m-10 md:p-4 text-gray-500 dark:text-gray-400 bg-gray-50 rounded shadow-md dark:bg-gray-800"
+      >
+        <Sidebar />
+      </aside>
+      <article
+        class="w-full m-2 p-2 flex flex-col md:m-10 md:p-4 text-gray-500 dark:text-gray-400 bg-gray-50 rounded shadow-md dark:bg-gray-800"
+      >
+        <Nuxt />
+      </article>
     </main>
     <Footer />
   </div>

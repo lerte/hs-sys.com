@@ -1,13 +1,11 @@
 <template>
-  <aside class="w-64" aria-label="Sidebar">
-    <div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800">
-      <ul class="space-y-2">
-        <template v-for="cate in categories">
-          <Dropdowns :menus="cate" :key="cate.title" />
-        </template>
-      </ul>
-    </div>
-  </aside>
+  <div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800">
+    <ul class="space-y-2">
+      <template v-for="cate in categories">
+        <Dropdowns :menus="cate" :key="cate.title" />
+      </template>
+    </ul>
+  </div>
 </template>
 
 <script>

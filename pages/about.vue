@@ -1,7 +1,5 @@
 <template>
-  <article
-    class="w-1/2 text-gray-500 dark:text-gray-400 shadow-md p-10 bg-gray-50 rounded dark:bg-gray-800"
-  >
+  <section>
     <p>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HS--具有60多年悠久历史的英国查爾斯叁產公司（CHARUER）旗下重金打造的专属高端音响品牌。
     </p>
@@ -27,7 +25,7 @@
       企業精神： <br />
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;誠信、專一、專注！
     </p>
-  </article>
+  </section>
 </template>
 
 <script>
