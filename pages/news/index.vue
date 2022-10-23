@@ -2,7 +2,10 @@
   <ul class="space-y-2 list-none list-inside text-gray-500 dark:text-gray-400">
     <li v-for="item in list" :key="item.title">
       <div class="flex items-center justify-between">
-        <a :href="item.link" class="flex items-center hover:text-orange-500">
+        <nuxt-link
+          :to="item.link"
+          class="flex items-center hover:text-orange-500"
+        >
           <svg
             class="w-6 h-6"
             fill="none"
@@ -20,7 +23,7 @@
           <span class="mx-3">
             {{ item.title }}
           </span>
-        </a>
+        </nuxt-link>
         <span>[{{ item.date }}]</span>
       </div>
     </li>
