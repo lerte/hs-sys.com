@@ -1,0 +1,592 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	皇室音響（廣州）有限公司
+</title><link href="css/css.css" rel="stylesheet" type="text/css" />
+
+    <script src="css/nav.js" type="text/javascript"></script>
+
+    <link href="css/style_nav.css" rel="stylesheet" type="text/css" /><link href="css/dll.css" rel="stylesheet" type="text/css" /><link href="css/css1.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/png.js" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+        /***
+        *功能：隐藏和显示div
+        *参数divDisplay：html标签id
+        ***/
+        function click_a(divDisplay)
+        {
+            if(document.getElementById(divDisplay).style.display != "block")
+            {
+                document.getElementById(divDisplay).style.display = "block";
+            }
+            else
+            {
+                document.getElementById(divDisplay).style.display = "none";
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+ function scrollx(p) {
+  var d = document, dd = d.documentElement, db = d.body, w = window, o = d
+    .getElementById(p.id), ie6 = /msie 6/i.test(navigator.userAgent), timer;
+  if (o) {
+   cssPub = ";position:" + (p.f && !ie6 ? 'fixed' : 'absolute') + ";" + (p.t != undefined ? 'top:' + p.t + 'px;' : 'bottom:0;');
+   if (p.r != undefined && p.l == undefined) {
+    o.style.cssText += cssPub + ('right:' + p.r + 'px;');
+   } else{
+    o.style.cssText += cssPub + ('margin-left:' + p.l + 'px;');
+   }
+   
+   if (p.f && ie6) {
+    cssTop = ';top:expression(documentElement.scrollTop +' + (p.t == undefined ? dd.clientHeight - o.offsetHeight : p.t) + '+ "px" );';
+    cssRight = ';right:expression(documentElement.scrollright + ' + (p.r == undefined ? dd.clientWidth - o.offsetWidth : p.r) + ' + "px")';
+    if (p.r != undefined && p.l == undefined) {
+     o.style.cssText += cssRight + cssTop;
+    } else {
+     o.style.cssText += cssTop;
+    }
+    dd.style.cssText += ';background-image: url(about:blank);background-attachment:fixed;';
+   } else {
+    if (!p.f) {
+     w.onresize = w.onscroll = function() {
+      clearInterval(timer);//清空时间
+      timer = setInterval(
+        function() {
+         //双选择为了修复chrome 下xhtml解析时dd.scrollTop为 0
+         var st = (dd.scrollTop || db.scrollTop), c;
+         c = st - o.offsetTop + (p.t != undefined ? p.t : (w.innerHeight || dd.clientHeight) - o.offsetHeight);
+         if (c != 0) {
+          o.style.top = o.offsetTop + Math.ceil(Math.abs(c) / 10) * (c < 0 ? -1 : 1) + 'px';
+         } else {
+          clearInterval(timer);//清空时间
+         }
+        }, 10);
+     };
+    }
+   }
+  }
+ }
+    </script>
+
+    <style type="text/css">
+        #ground_div
+        {
+            width: 700px;
+            margin: 0 auto;
+            height: 1000px;
+            background: lightblue;
+        }
+        #float_comparatively_whisht, #float_left, #float_right
+        {
+            width: 212px;
+            height: 316px;
+            text-align: center;
+        }
+        #float_comparatively_dynamic
+        {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            background: greenyellow;
+        }
+    </style>
+<meta name="keywords" content="皇室音响，HS, HS音响,HS AUDIO,皇室音響（廣州）有限公司,八度前级" /><meta name="description" content="英國皇室音響" /></head>
+<body>
+    <form name="aspnetForm" method="post" action="proinfo.aspx?id=213" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTIwMjU3MDE5NA9kFgJmD2QWAgIDD2QWEAICDxYCHgtfIUl0ZW1Db3VudAITFiZmD2QWAmYPFQIDMTA0CERL57O75YiXZAIBD2QWAmYPFQIDMTAyCEhD57O75YiXZAICD2QWAmYPFQICOTQK5b2xS+ezu+WIl2QCAw9kFgJmDxUCAjg0CFBL57O75YiXZAIED2QWAmYPFQICODUIQ0bns7vliJdkAgUPZBYCZg8VAgI5NghBWOezu+WIl2QCBg9kFgJmDxUCAjk3CEtQ57O75YiXZAIHD2QWAmYPFQICOTgJR0xD57O75YiXZAIID2QWAmYPFQICOTUM5pyD6K2w57O75YiXZAIJD2QWAmYPFQICOTEJR0xB57O75YiXZAIKD2QWAmYPFQICODYHQ+ezu+WIl2QCCw9kFgJmDxUCAjk5CE1B57O75YiXZAIMD2QWAmYPFQIDMTAzB1Pns7vliJdkAg0PZBYCZg8VAgI4MRfkuK3lsI/lnovmvJTlh7pMQeezu+WIl2QCDg9kFgJmDxUCAjkzD+mfs+mikeWkhOeQhuWZqGQCDw9kFgJmDxUCAjg5CEZQ57O75YiXZAIQD2QWAmYPFQICOTIP54Sh57ea6bql5YWL6aKoZAIRD2QWAmYPFQIDMTAwD+eUtea6kOaXtuW6j+WZqGQCEg9kFgJmDxUCAzEwMQnosIPpn7Plj7BkAgMPZBYCAgEPDxYCHgRUZXh0BQhDRuezu+WIl2RkAgQPZBYCAgEPDxYCHwEFCENG57O75YiXZGQCBQ9kFgYCAQ8PFgIeCEltYWdlVXJsBRthZG1pbi9JTUcvMjAxNDQxMDEwNDMyMy5wbmdkZAIDDw8WAh8BBQZDRi0yMTVkZAIFDw8WAh8BBeYRPHA+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IDxpbWcgc3JjPSIvYWRtaW4vRmlsZXMvY2YyLnBuZyIgYWx0PSIiIC8+PC9wPg0KPHA+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IENGLTIxNeaYr+S4k+S4uuiInuWPsOW3peeoi+W6lOeUqOiAjOiuvuiuoe+8jOWkluinguaWsOmilu+8jOinhOagvOm9kOWFqO+8jOmFjee9rue7j+a1juWunuaDoO+8jOeJueWunueUqOmFkuWQp++8jOWSluWVoeWOhe+8jOS/seS5kOmDqOWSjOS4reWwj+Wei+a8lOWHuuWcuuWQiOetieaJqeWjsOezu+e7n+S9v+eUqO+8mzxiciAvPg0K54m554K5PGJyIC8+DQox44CB57K+56Gu6K6+6K6h55qE5YiG6aKR572R57uc5L+d6K+B5LqG6Z+z566x6Z+z6LSo55yf5piv55qE6L+Y5Y6f77ybPGJyIC8+DQoy44CB5L2O6Z+z5Y2V5YWD6YeH55So6ICQ6auY5ripS0FQVE9O6Z+z5ZyI6IKh5Lu377yM6auY5pWI546H55qE56OB6Lev6K6+6K6h77ybPGJyIC8+DQoz44CB6K6+572u5LqG5YaF572uTEPliIbpopHlmajvvIzmnInkvY7lpLHnnJ/nmoTpq5jpn7Pkv53miqTvvJs8YnIgLz4NCjTjgIHpq5jpn7PljZXlhYPlrp7nlKjpk53ohpzlj4pQRU7ohpzvvIznsr7noa7nmoTnm7jkvY3moKHmraPlmajkv53or4Hkuobpq5jpn7PnmoTnu4bohbvjgIHmmI7kuq7mhJ/vvJs8L3A+DQo8cD7mioDooZPlj4PmlbjvvJo8YnIgLz4NCjxiciAvPg0KQ29tcG9uZW50OiZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyDljZXlhYPnu4TmiJAmbmJzcDsmbmJzcDsgTEY6IDImdGltZXM7MTUmUHJpbWU7L0hG77yaMSZ0aW1lczszJlByaW1lO++8mzxiciAvPg0KTG9uZy10ZXJtIHBvd2Vy77yIcm1z77yJJm5ic3A7IOmineWumuWKn+eOhyZuYnNwOyZuYnNwOyA4MDBX77yI6L+e57ut77yJOzxiciAvPg0KUGVhayBQb3dlciBIYW5kbGluZ++8miZuYnNwOyZuYnNwOyDls7DlgLzlip/njocmbmJzcDsmbmJzcDsgMzIwMFfvvIjls7DlgLzvvInvvJs8YnIgLz4NCkZyZXF1ZW5jeSByZXNwb25zZe+8miZuYnNwOyZuYnNwOyZuYnNwOyDpopHnjoflk43lupQmbmJzcDsmbmJzcDsgNTAtMjBrSHrvvJs8YnIgLz4NCkNyb3Nzb3ZlciBGcmVxdWVuY3nvvJombmJzcDsmbmJzcDsg5YiG6aKR54K5Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IDE4MDDvvJs8YnIgLz4NCk5vbWluYWwgSW1wZWRhbmNl77yaJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IOmineWumumYu+aKlyZuYnNwOyZuYnNwOyA0Jk9tZWdhO++8mzxiciAvPg0KQXhpYWwmbmJzcDsgc2Vuc2l0aXZpdHnvvJombmJzcDsmbmJzcDsmbmJzcDsg54G1IOaVjyDluqYmbmJzcDsmbmJzcDsgMTAzZELvvIgxVy8xbSDvvInvvJs8YnIgLz4NCk1heCBDYWxjdWxhdGVkIFNQTO+8miZuYnNwOyZuYnNwOyZuYnNwOyDmnIDlpKflo7DljosmbmJzcDsmbmJzcDsgMTI3ZELvvIjov57nu63vvIkvIDEzNGRC77yI5bOw5YC877yJ77ybPGJyIC8+DQpDb3ZlcmFnZSDvvIgtNmRC77yJ77yaJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IOaMh+WQkeaApyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyAxMDAmZGVnOyZ0aW1lczsgNjAmZGVnO++8mzxiciAvPg0KRGltZW5zaW9ucyhXeEh4RCnvvJombmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsg566x5L2T5bC65a+4Jm5ic3A7Jm5ic3A7IDU1MCZ0aW1lczsxMjYwJnRpbWVzOzYwMG1t77ybPGJyIC8+DQpOLlfvvJombmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsg6YeNJm5ic3A7IOmHjyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyA2MS41a2fvvJs8YnIgLz4NClN1cmZhY2UgdHJlYXRtZW5077yaJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IOeuseS9k+WWt+a8hiZuYnNwOyZuYnNwOyDnjq/kv53msLTmgKfpu5HoibLngrnpnaLmvIbvvJs8YnIgLz4NCkF4aWFsJm5ic3A7IHNlbnNpdGl2aXR577yaJm5ic3A7Jm5ic3A7Jm5ic3A7IOWQiuaMgueCuSZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyAxMuS4qk045ZCK5oyC54K544CCPC9wPmRkAgYPDxYCHwEFRuW7o+W3nuW4guiKsemDveWNgOiKseadsemOruWFiOenkeS4gOi3rzjomZ/lvq7op4DmmbrluqvnlKLmpa3lnJJC5qOfNkZkZAIHDw8WAh8BBRorODYtMjAtODY1MyA4MDU377yINue3mu+8iWRkAggPDxYCHwEFECs4Ni0yMC0zNzczIDM3NjBkZAIJDw8WAh8BBSTnmoflrqTpn7Ppn7/vvIjlu6Plt57vvInmnInpmZDlhazlj7hkZGTAjhubFPO1UX+R8EPOXkJ57BXPUw==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="158C7E79" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwKHw+/qCwK33sGJAQKOkrn2CD1EhhdSUe7t0icsUW6CikfFWc4e" />
+    <center>
+        <div class="all">
+            <div class="top">
+                <div class="logo">
+                    <a href="index.aspx">
+                        <img src="images/logo.jpg" /></a></div>
+                <div class="lr">
+                    <div class="logor">
+                        <img src="images/logor.jpg" /></div>
+                    <div class="ssbg">
+                        <div class="txt">
+                            <input name="ctl00$TextBox1" type="text" id="ctl00_TextBox1" />&nbsp;&nbsp;&nbsp;<a id="ctl00_LinkButton1" href="javascript:__doPostBack('ctl00$LinkButton1','')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+                    </div>
+                    <div class="dh">
+                        <div class="nltx">
+                            <div class="titbgx">
+                                <a href="index.aspx">
+                                    <div class="xltitx">
+                                        首 页</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="about.aspx">
+                                    <div class="xltitx">
+                                        關於我們</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="prolist.aspx?id=0">
+                                    <div class="xltitx">
+                                        產品系列</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt" style="display: none;">
+                            <div class="titbgx">
+                                <div id="bluemenu" class="bluetabs">
+                                    <ul>
+                                        <li><a href="prolist.aspx?id=0" target="" rel="dropmenu2_b">產品系列</a>
+                                            <div id="dropmenu2_b" class="dropmenudiv_b">
+                                                <div class="xxx">
+                                                    
+                                                            <a href='prolist.aspx?id=104'>
+                                                                DK系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=102'>
+                                                                HC系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=94'>
+                                                                影K系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=84'>
+                                                                PK系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=85'>
+                                                                CF系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=96'>
+                                                                AX系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=97'>
+                                                                KP系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=98'>
+                                                                GLC系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=95'>
+                                                                會議系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=91'>
+                                                                GLA系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=86'>
+                                                                C系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=99'>
+                                                                MA系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=103'>
+                                                                S系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=81'>
+                                                                中小型演出LA系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=93'>
+                                                                音频处理器</a>
+                                                        
+                                                            <a href='prolist.aspx?id=89'>
+                                                                FP系列</a>
+                                                        
+                                                            <a href='prolist.aspx?id=92'>
+                                                                無線麥克風</a>
+                                                        
+                                                            <a href='prolist.aspx?id=100'>
+                                                                电源时序器</a>
+                                                        
+                                                            <a href='prolist.aspx?id=101'>
+                                                                调音台</a>
+                                                        
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="dllist.aspx">
+                                    <div class="xltitx">
+                                        代理品牌</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="allist.aspx">
+                                    <div class="xltitx">
+                                        成功案例</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="newlist.aspx">
+                                    <div class="xltitx">
+                                        HS資訊</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="xzlist.aspx">
+                                    <div class="xltitx">
+                                        下載中心</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="contact.aspx">
+                                    <div class="xltitx">
+                                        聯繫我們</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+tabdropdown.init("bluemenu")
+            </script>
+
+            <div class="fls">
+                <img src="images/fls.jpg" />
+            </div>
+            <div class="allx">
+                <div class="left">
+                    <div class="l_t">
+                    </div>
+                    <div class="l_m">
+                        
+                        <a onclick='return click_a(23)' style="cursor: pointer;">
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <div class="xltitxs" style="font-size: 16px;">
+                                        <strong>
+                                            專業音箱</strong></div>
+                                </div>
+                            </div>
+                            <div class="n_x">
+                            </div>
+                        </a>
+                        <div id='23' style="display: none;">
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=102'>
+                                        <div class="xltitxs">
+                                            HC系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=84'>
+                                        <div class="xltitxs">
+                                            PK系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=97'>
+                                        <div class="xltitxs">
+                                            KP系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=96'>
+                                        <div class="xltitxs">
+                                            AX系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=85'>
+                                        <div class="xltitxs">
+                                            CF系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=86'>
+                                        <div class="xltitxs">
+                                            C系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=103'>
+                                        <div class="xltitxs">
+                                            S系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=81'>
+                                        <div class="xltitxs">
+                                            中小型演出LA系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="n_x">
+                            </div>
+                        </div>
+                        
+                        <a onclick='return click_a(21)' style="cursor: pointer;">
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <div class="xltitxs" style="font-size: 16px;">
+                                        <strong>
+                                            智能影K音箱</strong></div>
+                                </div>
+                            </div>
+                            <div class="n_x">
+                            </div>
+                        </a>
+                        <div id='21' style="display: none;">
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=94'>
+                                        <div class="xltitxs">
+                                            影K系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=95'>
+                                        <div class="xltitxs">
+                                            會議系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="n_x">
+                            </div>
+                        </div>
+                        
+                        <a onclick='return click_a(24)' style="cursor: pointer;">
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <div class="xltitxs" style="font-size: 16px;">
+                                        <strong>
+                                            專業功放</strong></div>
+                                </div>
+                            </div>
+                            <div class="n_x">
+                            </div>
+                        </a>
+                        <div id='24' style="display: none;">
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=104'>
+                                        <div class="xltitxs">
+                                            DK系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=98'>
+                                        <div class="xltitxs">
+                                            GLC系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=91'>
+                                        <div class="xltitxs">
+                                            GLA系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=99'>
+                                        <div class="xltitxs">
+                                            MA系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=89'>
+                                        <div class="xltitxs">
+                                            FP系列</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="n_x">
+                            </div>
+                        </div>
+                        
+                        <a onclick='return click_a(25)' style="cursor: pointer;">
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <div class="xltitxs" style="font-size: 16px;">
+                                        <strong>
+                                            周邊系列</strong></div>
+                                </div>
+                            </div>
+                            <div class="n_x">
+                            </div>
+                        </a>
+                        <div id='25' style="display: none;">
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=93'>
+                                        <div class="xltitxs">
+                                            音频处理器</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=92'>
+                                        <div class="xltitxs">
+                                            無線麥克風</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=100'>
+                                        <div class="xltitxs">
+                                            电源时序器</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=101'>
+                                        <div class="xltitxs">
+                                            调音台</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="n_x">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="l_b">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="rt">
+                        <div class="rtitr">
+                            
+    <span id="ctl00_ContentPlaceHolder1_Label2">CF系列</span>
+                        </div>
+                        <div class="rixr">
+                            您现在的位置：<a href="index.aspx">首页</a> >
+                            
+    <span id="ctl00_ContentPlaceHolder2_Label3">CF系列</span> > 详细信息
+                        </div>
+                    </div>
+                    <div class="nbg">
+                        <div class="n_nr">
+                            
+  
+      <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                   
+                    <tr style="display:none;">
+                        <td align="center" style="padding-top:20px;">
+                            <img id="ctl00_ContentPlaceHolder3_img" src="admin/IMG/2014410104323.png" border="1" />
+                            
+                        </td>
+                    </tr>
+                    <tr  style="display:none;">
+                        <td align="center"><span id="ctl00_ContentPlaceHolder3_tit">CF-215</span></td>
+                    </tr>
+                    <tr  style="display:none;">
+                        <td style="padding-left:20px; text-align:left;"><strong>产品介绍：</strong></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style=" ">
+                            <span id="ctl00_ContentPlaceHolder3_Label1"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/admin/Files/cf2.png" alt="" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CF-215是专为舞台工程应用而设计，外观新颖，规格齐全，配置经济实惠，特实用酒吧，咖啡厅，俱乐部和中小型演出场合等扩声系统使用；<br />
+特点<br />
+1、精确设计的分频网络保证了音箱音质真是的还原；<br />
+2、低音单元采用耐高温KAPTON音圈股价，高效率的磁路设计；<br />
+3、设置了内置LC分频器，有低失真的高音保护；<br />
+4、高音单元实用铝膜及PEN膜，精确的相位校正器保证了高音的细腻、明亮感；</p>
+<p>技術參數：<br />
+<br />
+Component:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 单元组成&nbsp;&nbsp; LF: 2&times;15&Prime;/HF：1&times;3&Prime;；<br />
+Long-term power（rms）&nbsp; 额定功率&nbsp;&nbsp; 800W（连续）;<br />
+Peak Power Handling：&nbsp;&nbsp; 峰值功率&nbsp;&nbsp; 3200W（峰值）；<br />
+Frequency response：&nbsp;&nbsp;&nbsp; 频率响应&nbsp;&nbsp; 50-20kHz；<br />
+Crossover Frequency：&nbsp;&nbsp; 分频点&nbsp;&nbsp;&nbsp;&nbsp; 1800；<br />
+Nominal Impedance：&nbsp;&nbsp;&nbsp;&nbsp; 额定阻抗&nbsp;&nbsp; 4&Omega;；<br />
+Axial&nbsp; sensitivity：&nbsp;&nbsp;&nbsp; 灵 敏 度&nbsp;&nbsp; 103dB（1W/1m ）；<br />
+Max Calculated SPL：&nbsp;&nbsp;&nbsp; 最大声压&nbsp;&nbsp; 127dB（连续）/ 134dB（峰值）；<br />
+Coverage （-6dB）：&nbsp;&nbsp;&nbsp;&nbsp; 指向性&nbsp;&nbsp;&nbsp;&nbsp; 100&deg;&times; 60&deg;；<br />
+Dimensions(WxHxD)：&nbsp;&nbsp;&nbsp;&nbsp; 箱体尺寸&nbsp;&nbsp; 550&times;1260&times;600mm；<br />
+N.W：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 重&nbsp; 量&nbsp;&nbsp;&nbsp;&nbsp; 61.5kg；<br />
+Surface treatment：&nbsp;&nbsp;&nbsp;&nbsp; 箱体喷漆&nbsp;&nbsp; 环保水性黑色点面漆；<br />
+Axial&nbsp; sensitivity：&nbsp;&nbsp;&nbsp; 吊挂点&nbsp;&nbsp;&nbsp;&nbsp; 12个M8吊挂点。</p></span>
+                        </td>
+                    </tr>
+                    </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bq">
+            <div class="all">
+                <div class="bqs">
+                    地址：<span id="ctl00_Label1">廣州市花都區花東鎮先科一路8號微觀智庫產業園B棟6F</span>
+                    &nbsp; 总机：<span id="ctl00_Label2">+86-20-8653 8057（6線）</span>
+                    &nbsp; 传真：<span id="ctl00_Label3">+86-20-3773 3760</span></div>
+                <div class="bqsx">
+                    版權所有(C) 2013 &nbsp;
+                    <span id="ctl00_Label4">皇室音響（廣州）有限公司</span> 技术支持:<a href="https://www.qiongtuo.com/" target="_blank">上海网站建设</a></div>
+            </div>
+        </div>
+    </center>
+    </form>
+</body>
+</html>

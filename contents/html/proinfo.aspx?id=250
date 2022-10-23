@@ -1,0 +1,613 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	»ÊÊÒÒôí‘£¨VÖÝ£©ÓÐÏÞ¹«Ë¾
+</title><link href="css/css.css" rel="stylesheet" type="text/css" />
+
+    <script src="css/nav.js" type="text/javascript"></script>
+
+    <link href="css/style_nav.css" rel="stylesheet" type="text/css" /><link href="css/dll.css" rel="stylesheet" type="text/css" /><link href="css/css1.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/png.js" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+        /***
+        *¹¦ÄÜ£ºÒþ²ØºÍÏÔÊ¾div
+        *²ÎÊýdivDisplay£ºhtml±êÇ©id
+        ***/
+        function click_a(divDisplay)
+        {
+            if(document.getElementById(divDisplay).style.display != "block")
+            {
+                document.getElementById(divDisplay).style.display = "block";
+            }
+            else
+            {
+                document.getElementById(divDisplay).style.display = "none";
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+ function scrollx(p) {
+  var d = document, dd = d.documentElement, db = d.body, w = window, o = d
+    .getElementById(p.id), ie6 = /msie 6/i.test(navigator.userAgent), timer;
+  if (o) {
+   cssPub = ";position:" + (p.f && !ie6 ? 'fixed' : 'absolute') + ";" + (p.t != undefined ? 'top:' + p.t + 'px;' : 'bottom:0;');
+   if (p.r != undefined && p.l == undefined) {
+    o.style.cssText += cssPub + ('right:' + p.r + 'px;');
+   } else{
+    o.style.cssText += cssPub + ('margin-left:' + p.l + 'px;');
+   }
+   
+   if (p.f && ie6) {
+    cssTop = ';top:expression(documentElement.scrollTop +' + (p.t == undefined ? dd.clientHeight - o.offsetHeight : p.t) + '+ "px" );';
+    cssRight = ';right:expression(documentElement.scrollright + ' + (p.r == undefined ? dd.clientWidth - o.offsetWidth : p.r) + ' + "px")';
+    if (p.r != undefined && p.l == undefined) {
+     o.style.cssText += cssRight + cssTop;
+    } else {
+     o.style.cssText += cssTop;
+    }
+    dd.style.cssText += ';background-image: url(about:blank);background-attachment:fixed;';
+   } else {
+    if (!p.f) {
+     w.onresize = w.onscroll = function() {
+      clearInterval(timer);//Çå¿ÕÊ±¼ä
+      timer = setInterval(
+        function() {
+         //Ë«Ñ¡ÔñÎªÁËÐÞ¸´chrome ÏÂxhtml½âÎöÊ±dd.scrollTopÎª 0
+         var st = (dd.scrollTop || db.scrollTop), c;
+         c = st - o.offsetTop + (p.t != undefined ? p.t : (w.innerHeight || dd.clientHeight) - o.offsetHeight);
+         if (c != 0) {
+          o.style.top = o.offsetTop + Math.ceil(Math.abs(c) / 10) * (c < 0 ? -1 : 1) + 'px';
+         } else {
+          clearInterval(timer);//Çå¿ÕÊ±¼ä
+         }
+        }, 10);
+     };
+    }
+   }
+  }
+ }
+    </script>
+
+    <style type="text/css">
+        #ground_div
+        {
+            width: 700px;
+            margin: 0 auto;
+            height: 1000px;
+            background: lightblue;
+        }
+        #float_comparatively_whisht, #float_left, #float_right
+        {
+            width: 212px;
+            height: 316px;
+            text-align: center;
+        }
+        #float_comparatively_dynamic
+        {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            background: greenyellow;
+        }
+    </style>
+<meta name="keywords" content="»ÊÊÒÒôÏì£¬HS, HSÒôÏì,HS AUDIO,»ÊÊÒÒôí‘£¨VÖÝ£©ÓÐÏÞ¹«Ë¾,°Ë¶ÈÇ°¼¶" /><meta name="description" content="Ó¢‡ø»ÊÊÒÒôí‘" /></head>
+<body>
+    <form name="aspnetForm" method="post" action="proinfo.aspx?id=250" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTIwMjU3MDE5NA9kFgJmD2QWAgIDD2QWEAICDxYCHgtfIUl0ZW1Db3VudAITFiZmD2QWAmYPFQIDMTA0CERL57O75YiXZAIBD2QWAmYPFQIDMTAyCEhD57O75YiXZAICD2QWAmYPFQICOTQK5b2xS+ezu+WIl2QCAw9kFgJmDxUCAjg0CFBL57O75YiXZAIED2QWAmYPFQICODUIQ0bns7vliJdkAgUPZBYCZg8VAgI5NghBWOezu+WIl2QCBg9kFgJmDxUCAjk3CEtQ57O75YiXZAIHD2QWAmYPFQICOTgJR0xD57O75YiXZAIID2QWAmYPFQICOTUM5pyD6K2w57O75YiXZAIJD2QWAmYPFQICOTEJR0xB57O75YiXZAIKD2QWAmYPFQICODYHQ+ezu+WIl2QCCw9kFgJmDxUCAjk5CE1B57O75YiXZAIMD2QWAmYPFQIDMTAzB1Pns7vliJdkAg0PZBYCZg8VAgI4MRfkuK3lsI/lnovmvJTlh7pMQeezu+WIl2QCDg9kFgJmDxUCAjkzD+mfs+mikeWkhOeQhuWZqGQCDw9kFgJmDxUCAjg5CEZQ57O75YiXZAIQD2QWAmYPFQICOTIP54Sh57ea6bql5YWL6aKoZAIRD2QWAmYPFQIDMTAwD+eUtea6kOaXtuW6j+WZqGQCEg9kFgJmDxUCAzEwMQnosIPpn7Plj7BkAgMPZBYCAgEPDxYCHgRUZXh0BQ/pn7PpopHlpITnkIblmahkZAIED2QWAgIBDw8WAh8BBQ/pn7PpopHlpITnkIblmahkZAIFD2QWBgIBDw8WAh4ISW1hZ2VVcmwFHGFkbWluL0lNRy8yMDIyLzgvMjE1MDQzMC5qcGdkZAIDDw8WAh8BBQVEUDQ4MGRkAgUPDxYCHwEFmhk8cD4NCgk8aW1nIHdpZHRoPSI5OTEiIGhlaWdodD0iNzg1IiBzdHlsZT0id2lkdGg6NDY3cHg7aGVpZ2h0OjM5NnB4OyIgYWx0PSIiIHNyYz0iL2VkaXRvci9hdHRhY2hlZC9pbWFnZS8yMDIyMDgwMi8yMDIyMDgwMjE1MDc1Nl85MzExLmpwZyIgLz4NCjwvcD4NCjxwPg0KCSZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwO0RQNDgwDQo8L3A+DQo8cD4NCgk8YnIgLz4NCkRpZ2l0YWwgQ3Jvc3NvdmVyIFN5c3RlbSBQcm9jZXNzb3IgPGJyIC8+DQrkuJPkuJrmlbDlrZflvI/liIbpopHlmagv57O757uf5aSE55CG5ZmoIDxiciAvPg0KNOe7hOi+k+WFpeOAgTjnu4TovpPlh7ogPGJyIC8+DQpEUDQ4MCZuYnNwO1NFUklFUyA8YnIgLz4NCkRJR0lUQUwgQ1JPU1NPVkVSIFNZU1RFTSBQUk9DRVNTT1IgPGJyIC8+DQrkuJPkuJrmlbDlrZflvI/liIbpopHlmagv57O757uf5aSE55CG5ZmoIDxiciAvPg0K6YCC55So6IyD5Zu077yaIDxiciAvPg0K5rWB5Yqo5ryU5Ye644CB5L2T6IKy5Zy65omA44CB5Ymn5Zy644CB56S85aCC44CB5aSa5Yqf6IO95Y6F562J6auY5rC05YeG5aOw6Z+z6KaB5rGC55qE5Zy65omA44CCIDxiciAvPg0K5Yqf6IO954m554K577yaIDxiciAvPg0K5pWw5a2X5L+h5Y+35aSE55CG5Zmo77yM5YW35pyJ6IO95aSf57K+56Gu6ICM5Y+I5bm/5rOb55qE5a+56Z+z6aKR6L+b6KGM5o6n5Yi255qE5Yqf6IO944CC6YCa6L+H5YmN6Z2i5p2/55WM6Z2i5LiK55qE5Yqf6IO95oyJ6ZKu77yM5YWB6K645b+r6YCf5Y+R6YCB5omA5pyJ5o6n5Yi25Y+C5pWw44CC6IOM5YWJMngyMOeJueaAp0xDROaYvuekuumAmumBk+WSjOWKn+iDveiuvue9ruOAguebuOWFs+aMiemSruWPr+iuv+mXruaJgOaciemfs+mikeWKn+iDveWSjOezu+e7n+W3peWFt+OAguabtOW/q+aNt+iuvue9ruWSjOW8uuWkp+eahOWPr+inhui+k+WFpS/ovpPlh7rot6/nlLHvvIxFUe+8jOa7pOazouabsue6v+ezu+e7n++8jFVTQuaOpeWPo+WSjFJT4oCUMjMy5o6l5Y+j5Y+v55So5LqO5o6n5Yi26L2v5Lu25ZKMUEPov57mjqXjgILova/ku7bnmoTkvb/nlKjkvJjlir/lnKjkuo7lroPljIXmi6zpnZ7luLjlvLrlpKfnmoTpooTorr7og73lipvvvIzlubbkuJTlnKjpn7PpopHot6/nlLHkuI7mjqfliLblpITnkIbmlrnpnaLpnZ7luLjnmoTnm7Top4LvvIzlj6/lrZjlgqjlpJrovr4zMOS4qumihOe9ruOAgiA8YnIgLz4NCuaKgOacr+WPguaVsO+8miA8YnIgLz4NCiYjODIyNjsg6L6T5YWl5o6l5Y+jLei+k+WHuuaOpeWPo+i+k+WFpeWPr+S7peWIhumFjee7meS7u+S9leS4gOS4qui+k+WHuiA8YnIgLz4NCiYjODIyNjsg5pac546H5Li6MTIgZEIvT2N077yMMTggZEIvT2N077yMMjQgZEIgPGJyIC8+DQomIzgyMjY7IE9jdOWSjDQ4ZEIvT2N0IC8gNjgy5q+r56eS6L6T5YWl5bu25pe277yMMjHmr6vnp5LovpPlh7rlu7bml7YgPGJyIC8+DQomIzgyMjY7IOmHh+eUqExpbmt3aXRzLVJpbGV577yMQmVzc2Vs5ZKMQnV0dGVyd29ydGjmu6Tms6LlmaggPGJyIC8+DQomIzgyMjY7IOWPgumHj+Wdh+ihoeWZqO+8mui+k+WFpTbmrrXvvIzovpPlh7o05q6177yM5YWo5bim5a6977yM56ysMS82NOWIsDTlgI3popHnqIvojIPlm7QgPGJyIC8+DQomIzgyMjY7IDQ4IEtIeueahOmHh+agt+mikeeOhyA8YnIgLz4NCiYjODIyNjsg54us56uL55qE6L6T5YWl6L6T5Ye65oyH56S6IDxiciAvPg0KRFA0ODAmbmJzcDtTRVJJRVMgPGJyIC8+DQpESUdJVEFMIENST1NTT1ZFUiBTWVNURU0gUFJPQ0VTU09SIDxiciAvPg0K5LiT5Lia5pWw5a2X5byP5YiG6aKR5ZmoL+ezu+e7n+WkhOeQhuWZqCA8YnIgLz4NClNjb3BlIG9mIGFwcGxpY2F0aW9uIDogPGJyIC8+DQpIaWdoIHN0YW5kYXJkIG9jY2FzaW9ucyBzdWNoIGFzIG1vYmlsZSBwZXJmb3JtYW5jZSxzdGFkaXVtLHRoZWF0ZXIsbGVjdHVyZSBoYWxsIDxiciAvPg0KYW5kbXVsdGkgZnVuY3Rpb25hbCBtZWV0aW5nIHJvb21zLiA8YnIgLz4NCkZFQVRVUkVT77yaIDxiciAvPg0KVGhlIGRpZ2l0YWwgc2lnbmFsIHByb2Nlc3Nvciwgd2l0aCBhY2N1cmF0ZWx5IGFuZCB3aWRlbHkgZm9yIGF1ZGlvIGNvbnRyb2wgZnVuY3Rpb24uIFRocm91Z2ggZnJvbnQgcGFuZWwgb2YgaW50ZXJmYWNlIGZ1bmN0aW9uIGJ1dHRvbiwgYWxsb3cgdG8gc2VuZCBhbGwgb2YgY29udHJvbCBwYXJhbWV0ZXJzIHF1aWNrbHkuIEJhY2tsaWdodCAyeDIwIGNoYXJhY3RlcmlzdGljIOOAgUxDRCBkaXNwbGF5IGNoYW5uZWwgYW5kIGZ1bmN0aW9uIHNldHVwLiBSZWxhdGVkIGJ1dHRvbiBjYW4gYWNjZXNzIGFsbCBvZiBhdWRpbyBmdW5jdGlvbiBhbmQgc3lzdGVtIHRvb2xzLiBNb3JlIHNwZWVkeSBzZXR1cCBhbmQgcG93ZXJmdWwgb2YgdmlzdWFsIGlucHV0L291dHB1dCByb3V0aW5n44CBRVHjgIFmaWx0ZXJpbmcgY3VydmUgc3lzdGVt44CBVVNCIGFuZCBSUy0yMzIgaW50ZXJmYWNlIGNhbiBjb250cm9sIHNvZnR3YXJlIGFuZCBQQyBjb25uZWN0ZWQuVGhlIGFkdmFudGFnZSBvZiBzb2Z0d2FyZSBpcyB0aGF0IGl0IGluY2x1ZGVzIHZlcnkgcG93ZXJmdWwgcHJlc2V0IGFiaWxpdHksIGFuZCBpdCBpcyB2ZXJ5IGludHVpdGl2ZSBmb3IgYXVkaW8gcm91dGluZyBhbmQgY29udHJvbCBwcm9jZXNzaW5nLCBjYW4gYmUgc3RvcmVkIG1vcmUgdGhhbiAzMCB0eXBlIHByZXNldC4gPGJyIC8+DQpTUEVDSUZJQ0FUSU9OU++8miA8YnIgLz4NCiYjODIyNjsgSW5wdXQgYW5kIG91dHB1dCBpbnRlcmZhY2UgY2FuIGJlIGFzc2lnbmVkIHRvIGFueSBvbmUgb2Ygb3V0cHV0IDxiciAvPg0KJiM4MjI2OyBTbG9wZSBSYXRlOiAxMiBkQi9PY3TvvIwxOCBkQi9PY3TvvIwyNCBkQiA8YnIgLz4NCiYjODIyNjsgT2N0IGFuZCA0OGRCL09jdCAvIDY4MiBtcyBpbnB1dCBkZWxheSwgYW5kIDIxIG1zIG91dHB1dCBkZWxheSA8YnIgLz4NCiYjODIyNjsgQWRvcHRpbmcgTGlua3dpdHMtUmlsZXksIEJlc3NlbCBhbmQgQnV0dGVyd29ydGggZmlsdGVycyA8YnIgLz4NCiYjODIyNjsgUGFyYW1ldHJpYyBlcXVhbGl6ZXI6IGZ1bGwgYmFuZHdpZHRoLCBmcm9tIDEvNjQgdG8gNCBvY3RhdmUgcmFuZ2UgPGJyIC8+DQomIzgyMjY7IDQ4IEtIeiBzYW1wbGluZyBmcmVxdWVuY3kgPGJyIC8+DQomIzgyMjY7IEluZGVwZW5kZW50IGlucHV0IGFuZCBvdXRwdXQgaW5zdHJ1Y3Rpb25zJm5ic3A7DQo8L3A+ZGQCBg8PFgIfAQVG5buj5bee5biC6Iqx6YO95Y2A6Iqx5p2x6Y6u5YWI56eR5LiA6LevOOiZn+W+ruingOaZuuW6q+eUoualreWckkLmo582RmRkAgcPDxYCHwEFGis4Ni0yMC04NjUzIDgwNTfvvIg257ea77yJZGQCCA8PFgIfAQUQKzg2LTIwLTM3NzMgMzc2MGRkAgkPDxYCHwEFJOeah+WupOmfs+mfv++8iOW7o+W3nu+8ieaciemZkOWFrOWPuGRkZC7IDC1cl37PNygTqsSjwyjaFZRa" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="158C7E79" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwKM8PdbArfewYkBAo6SufYIX7IpdUPrQznHeW/gDIaXmaA/Beo=" />
+    <center>
+        <div class="all">
+            <div class="top">
+                <div class="logo">
+                    <a href="index.aspx">
+                        <img src="images/logo.jpg" /></a></div>
+                <div class="lr">
+                    <div class="logor">
+                        <img src="images/logor.jpg" /></div>
+                    <div class="ssbg">
+                        <div class="txt">
+                            <input name="ctl00$TextBox1" type="text" id="ctl00_TextBox1" />&nbsp;&nbsp;&nbsp;<a id="ctl00_LinkButton1" href="javascript:__doPostBack('ctl00$LinkButton1','')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+                    </div>
+                    <div class="dh">
+                        <div class="nltx">
+                            <div class="titbgx">
+                                <a href="index.aspx">
+                                    <div class="xltitx">
+                                        Ê× Ò³</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="about.aspx">
+                                    <div class="xltitx">
+                                        êPì¶ÎÒ‚ƒ</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="prolist.aspx?id=0">
+                                    <div class="xltitx">
+                                        ®aÆ·ÏµÁÐ</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt" style="display: none;">
+                            <div class="titbgx">
+                                <div id="bluemenu" class="bluetabs">
+                                    <ul>
+                                        <li><a href="prolist.aspx?id=0" target="" rel="dropmenu2_b">®aÆ·ÏµÁÐ</a>
+                                            <div id="dropmenu2_b" class="dropmenudiv_b">
+                                                <div class="xxx">
+                                                    
+                                                            <a href='prolist.aspx?id=104'>
+                                                                DKÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=102'>
+                                                                HCÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=94'>
+                                                                Ó°KÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=84'>
+                                                                PKÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=85'>
+                                                                CFÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=96'>
+                                                                AXÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=97'>
+                                                                KPÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=98'>
+                                                                GLCÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=95'>
+                                                                •þ×hÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=91'>
+                                                                GLAÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=86'>
+                                                                CÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=99'>
+                                                                MAÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=103'>
+                                                                SÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=81'>
+                                                                ÖÐÐ¡ÐÍÑÝ³öLAÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=93'>
+                                                                ÒôÆµ´¦ÀíÆ÷</a>
+                                                        
+                                                            <a href='prolist.aspx?id=89'>
+                                                                FPÏµÁÐ</a>
+                                                        
+                                                            <a href='prolist.aspx?id=92'>
+                                                                Ÿo¾€ûœ¿ËïL</a>
+                                                        
+                                                            <a href='prolist.aspx?id=100'>
+                                                                µçÔ´Ê±ÐòÆ÷</a>
+                                                        
+                                                            <a href='prolist.aspx?id=101'>
+                                                                µ÷ÒôÌ¨</a>
+                                                        
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="dllist.aspx">
+                                    <div class="xltitx">
+                                        ´úÀíÆ·ÅÆ</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="allist.aspx">
+                                    <div class="xltitx">
+                                        ³É¹¦°¸Àý</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="newlist.aspx">
+                                    <div class="xltitx">
+                                        HSÙYÓ</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="xzlist.aspx">
+                                    <div class="xltitx">
+                                        ÏÂÝdÖÐÐÄ</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nlt">
+                            <div class="titbgx">
+                                <a href="contact.aspx">
+                                    <div class="xltitx">
+                                        Â“ÀMÎÒ‚ƒ</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+tabdropdown.init("bluemenu")
+            </script>
+
+            <div class="fls">
+                <img src="images/fls.jpg" />
+            </div>
+            <div class="allx">
+                <div class="left">
+                    <div class="l_t">
+                    </div>
+                    <div class="l_m">
+                        
+                        <a onclick='return click_a(23)' style="cursor: pointer;">
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <div class="xltitxs" style="font-size: 16px;">
+                                        <strong>
+                                            Œ£˜IÒôÏä</strong></div>
+                                </div>
+                            </div>
+                            <div class="n_x">
+                            </div>
+                        </a>
+                        <div id='23' style="display: none;">
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=102'>
+                                        <div class="xltitxs">
+                                            HCÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=84'>
+                                        <div class="xltitxs">
+                                            PKÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=97'>
+                                        <div class="xltitxs">
+                                            KPÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=96'>
+                                        <div class="xltitxs">
+                                            AXÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=85'>
+                                        <div class="xltitxs">
+                                            CFÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=86'>
+                                        <div class="xltitxs">
+                                            CÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=103'>
+                                        <div class="xltitxs">
+                                            SÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=81'>
+                                        <div class="xltitxs">
+                                            ÖÐÐ¡ÐÍÑÝ³öLAÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="n_x">
+                            </div>
+                        </div>
+                        
+                        <a onclick='return click_a(21)' style="cursor: pointer;">
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <div class="xltitxs" style="font-size: 16px;">
+                                        <strong>
+                                            ÖÇÄÜÓ°KÒôÏä</strong></div>
+                                </div>
+                            </div>
+                            <div class="n_x">
+                            </div>
+                        </a>
+                        <div id='21' style="display: none;">
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=94'>
+                                        <div class="xltitxs">
+                                            Ó°KÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=95'>
+                                        <div class="xltitxs">
+                                            •þ×hÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="n_x">
+                            </div>
+                        </div>
+                        
+                        <a onclick='return click_a(24)' style="cursor: pointer;">
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <div class="xltitxs" style="font-size: 16px;">
+                                        <strong>
+                                            Œ£˜I¹¦·Å</strong></div>
+                                </div>
+                            </div>
+                            <div class="n_x">
+                            </div>
+                        </a>
+                        <div id='24' style="display: none;">
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=104'>
+                                        <div class="xltitxs">
+                                            DKÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=98'>
+                                        <div class="xltitxs">
+                                            GLCÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=91'>
+                                        <div class="xltitxs">
+                                            GLAÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=99'>
+                                        <div class="xltitxs">
+                                            MAÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=89'>
+                                        <div class="xltitxs">
+                                            FPÏµÁÐ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="n_x">
+                            </div>
+                        </div>
+                        
+                        <a onclick='return click_a(25)' style="cursor: pointer;">
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <div class="xltitxs" style="font-size: 16px;">
+                                        <strong>
+                                            ÖÜß…ÏµÁÐ</strong></div>
+                                </div>
+                            </div>
+                            <div class="n_x">
+                            </div>
+                        </a>
+                        <div id='25' style="display: none;">
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=93'>
+                                        <div class="xltitxs">
+                                            ÒôÆµ´¦ÀíÆ÷</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=92'>
+                                        <div class="xltitxs">
+                                            Ÿo¾€ûœ¿ËïL</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=100'>
+                                        <div class="xltitxs">
+                                            µçÔ´Ê±ÐòÆ÷</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="nlts">
+                                <div class="titbgxs">
+                                    <a href='prolist.aspx?id=101'>
+                                        <div class="xltitxs">
+                                            µ÷ÒôÌ¨</div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="n_x">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="l_b">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="rt">
+                        <div class="rtitr">
+                            
+    <span id="ctl00_ContentPlaceHolder1_Label2">ÒôÆµ´¦ÀíÆ÷</span>
+                        </div>
+                        <div class="rixr">
+                            ÄúÏÖÔÚµÄÎ»ÖÃ£º<a href="index.aspx">Ê×Ò³</a> >
+                            
+    <span id="ctl00_ContentPlaceHolder2_Label3">ÒôÆµ´¦ÀíÆ÷</span> > ÏêÏ¸ÐÅÏ¢
+                        </div>
+                    </div>
+                    <div class="nbg">
+                        <div class="n_nr">
+                            
+  
+      <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                   
+                    <tr style="display:none;">
+                        <td align="center" style="padding-top:20px;">
+                            <img id="ctl00_ContentPlaceHolder3_img" src="admin/IMG/2022/8/2150430.jpg" border="1" />
+                            
+                        </td>
+                    </tr>
+                    <tr  style="display:none;">
+                        <td align="center"><span id="ctl00_ContentPlaceHolder3_tit">DP480</span></td>
+                    </tr>
+                    <tr  style="display:none;">
+                        <td style="padding-left:20px; text-align:left;"><strong>²úÆ·½éÉÜ£º</strong></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style=" ">
+                            <span id="ctl00_ContentPlaceHolder3_Label1"><p>
+	<img width="991" height="785" style="width:467px;height:396px;" alt="" src="/editor/attached/image/20220802/20220802150756_9311.jpg" />
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DP480
+</p>
+<p>
+	<br />
+Digital Crossover System Processor <br />
+×¨ÒµÊý×ÖÊ½·ÖÆµÆ÷/ÏµÍ³´¦ÀíÆ÷ <br />
+4×éÊäÈë¡¢8×éÊä³ö <br />
+DP480&nbsp;SERIES <br />
+DIGITAL CROSSOVER SYSTEM PROCESSOR <br />
+×¨ÒµÊý×ÖÊ½·ÖÆµÆ÷/ÏµÍ³´¦ÀíÆ÷ <br />
+ÊÊÓÃ·¶Î§£º <br />
+Á÷¶¯ÑÝ³ö¡¢ÌåÓý³¡Ëù¡¢¾ç³¡¡¢ÀñÌÃ¡¢¶à¹¦ÄÜÌüµÈ¸ßË®×¼ÉùÒôÒªÇóµÄ³¡Ëù¡£ <br />
+¹¦ÄÜÌØµã£º <br />
+Êý×ÖÐÅºÅ´¦ÀíÆ÷£¬¾ßÓÐÄÜ¹»¾«È·¶øÓÖ¹ã·ºµÄ¶ÔÒôÆµ½øÐÐ¿ØÖÆµÄ¹¦ÄÜ¡£Í¨¹ýÇ°Ãæ°å½çÃæÉÏµÄ¹¦ÄÜ°´Å¥£¬ÔÊÐí¿ìËÙ·¢ËÍËùÓÐ¿ØÖÆ²ÎÊý¡£±³¹â2x20ÌØÐÔLCDÏÔÊ¾Í¨µÀºÍ¹¦ÄÜÉèÖÃ¡£Ïà¹Ø°´Å¥¿É·ÃÎÊËùÓÐÒôÆµ¹¦ÄÜºÍÏµÍ³¹¤¾ß¡£¸ü¿ì½ÝÉèÖÃºÍÇ¿´óµÄ¿ÉÊÓÊäÈë/Êä³öÂ·ÓÉ£¬EQ£¬ÂË²¨ÇúÏßÏµÍ³£¬USB½Ó¿ÚºÍRS¡ª232½Ó¿Ú¿ÉÓÃÓÚ¿ØÖÆÈí¼þºÍPCÁ¬½Ó¡£Èí¼þµÄÊ¹ÓÃÓÅÊÆÔÚÓÚËü°üÀ¨·Ç³£Ç¿´óµÄÔ¤ÉèÄÜÁ¦£¬²¢ÇÒÔÚÒôÆµÂ·ÓÉÓë¿ØÖÆ´¦Àí·½Ãæ·Ç³£µÄÖ±¹Û£¬¿É´æ´¢¶à´ï30¸öÔ¤ÖÃ¡£ <br />
+¼¼Êõ²ÎÊý£º <br />
+&#8226; ÊäÈë½Ó¿Ú-Êä³ö½Ó¿ÚÊäÈë¿ÉÒÔ·ÖÅä¸øÈÎºÎÒ»¸öÊä³ö <br />
+&#8226; Ð±ÂÊÎª12 dB/Oct£¬18 dB/Oct£¬24 dB <br />
+&#8226; OctºÍ48dB/Oct / 682ºÁÃëÊäÈëÑÓÊ±£¬21ºÁÃëÊä³öÑÓÊ± <br />
+&#8226; ²ÉÓÃLinkwits-Riley£¬BesselºÍButterworthÂË²¨Æ÷ <br />
+&#8226; ²ÎÁ¿¾ùºâÆ÷£ºÊäÈë6¶Î£¬Êä³ö4¶Î£¬È«´ø¿í£¬µÚ1/64µ½4±¶Æµ³Ì·¶Î§ <br />
+&#8226; 48 KHzµÄ²ÉÑùÆµÂÊ <br />
+&#8226; ¶ÀÁ¢µÄÊäÈëÊä³öÖ¸Ê¾ <br />
+DP480&nbsp;SERIES <br />
+DIGITAL CROSSOVER SYSTEM PROCESSOR <br />
+×¨ÒµÊý×ÖÊ½·ÖÆµÆ÷/ÏµÍ³´¦ÀíÆ÷ <br />
+Scope of application : <br />
+High standard occasions such as mobile performance,stadium,theater,lecture hall <br />
+andmulti functional meeting rooms. <br />
+FEATURES£º <br />
+The digital signal processor, with accurately and widely for audio control function. Through front panel of interface function button, allow to send all of control parameters quickly. Backlight 2x20 characteristic ¡¢LCD display channel and function setup. Related button can access all of audio function and system tools. More speedy setup and powerful of visual input/output routing¡¢EQ¡¢filtering curve system¡¢USB and RS-232 interface can control software and PC connected.The advantage of software is that it includes very powerful preset ability, and it is very intuitive for audio routing and control processing, can be stored more than 30 type preset. <br />
+SPECIFICATIONS£º <br />
+&#8226; Input and output interface can be assigned to any one of output <br />
+&#8226; Slope Rate: 12 dB/Oct£¬18 dB/Oct£¬24 dB <br />
+&#8226; Oct and 48dB/Oct / 682 ms input delay, and 21 ms output delay <br />
+&#8226; Adopting Linkwits-Riley, Bessel and Butterworth filters <br />
+&#8226; Parametric equalizer: full bandwidth, from 1/64 to 4 octave range <br />
+&#8226; 48 KHz sampling frequency <br />
+&#8226; Independent input and output instructions&nbsp;
+</p></span>
+                        </td>
+                    </tr>
+                    </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bq">
+            <div class="all">
+                <div class="bqs">
+                    µØÖ·£º<span id="ctl00_Label1">VÖÝÊÐ»¨¶¼…^»¨–|æ‚ÏÈ¿ÆÒ»Â·8Ì–Î¢Ó^ÖÇŽì®a˜Iˆ@B—6F</span>
+                    &nbsp; ×Ü»ú£º<span id="ctl00_Label2">+86-20-8653 8057£¨6¾€£©</span>
+                    &nbsp; ´«Õæ£º<span id="ctl00_Label3">+86-20-3773 3760</span></div>
+                <div class="bqsx">
+                    °æ™àËùÓÐ(C) 2013 &nbsp;
+                    <span id="ctl00_Label4">»ÊÊÒÒôí‘£¨VÖÝ£©ÓÐÏÞ¹«Ë¾</span> ¼¼ÊõÖ§³Ö:<a href="https://www.qiongtuo.com/" target="_blank">ÉÏº£ÍøÕ¾½¨Éè</a></div>
+            </div>
+        </div>
+    </center>
+    </form>
+</body>
+</html>
