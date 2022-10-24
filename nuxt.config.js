@@ -37,7 +37,10 @@ export default {
   buildModules: ['@nuxt/postcss8'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    // https://http.nuxtjs.org/
+    '@nuxt/http'
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

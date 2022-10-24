@@ -11,6 +11,7 @@
     "push": "push-dir --dir=public --branch=gh-pages --cleanup --force --verbose"
   },
   "dependencies": {
+    "@nuxt/http": "^0.6.4",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
