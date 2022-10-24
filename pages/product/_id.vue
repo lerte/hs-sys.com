@@ -10,18 +10,16 @@
 </template>
 
 <script>
-import productList from '@/contents/products.json'
 export default {
-  computed: {
-    productDetail() {
-      const product = productList.find(
-        (product) => product.id == this.$route.params.id
-      )
-      return (
-        product || {
-          content: '内容未找到'
-        }
-      )
+  head() {
+    return {
+      title: '產品系列'
+    }
+  },
+  async asyncData({ params, $http }) {
+    const productDetail = await $http.$get(`/products/${params.id}.json`)
+    return {
+      productDetail
     }
   }
 }
