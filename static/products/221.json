@@ -1,5 +1,7 @@
 {
+  "id": 221,
+  "cat_id": 96,
   "title": "AX-12",
   "image": "/products/201833094150.png",
-  "content": ""
+  "content": "<table border='0' width='100%' cellpadding='0' cellspacing='0'><tbody><tr><td align='left'><span id='ctl00_ContentPlaceHolder3_Label1'><p>單元組成：LF: 1×12″/HF：1×1.75″</p><p><br>功率:350W（連續）/1400W（峰值）</p><p><br>頻率響應：60-18kHz</p><p><br>分頻點：1900</p><p><br>額定阻抗：8Ω</p><p><br>靈敏度：97dB（1W/1m ）</p><p><br>最大聲壓：121dB（連續）/ 127dB（峰值）</p><p><br>指向性：80°× 50°</p><p><br>箱體尺寸：380×360×580mm</p><p><br>箱體喷漆：高檔档黑色點漆</p><p><br>吊挂點：23個M8吊掛點</p></span></td></tr></tbody></table>"
 }
