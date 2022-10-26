@@ -1,22 +1,22 @@
 <template>
   <section>
-    <ul class="grid grid-cols-3 gap-4">
+    <ul class="grid grid-cols-1 md:grid-cols-3 gap-4">
       <li
-        class="bg-white rounded-md shadow-md"
-        v-for="product in products"
         :key="product.id"
+        v-for="product in products"
+        class="bg-white rounded-md shadow-md"
       >
         <nuxt-link :to="`/product/${product.id}`">
           <img
-            class="h-52 w-full object-contain"
             :src="product.image"
             :alt="product.title"
+            class="h-52 w-full object-contain"
           />
           <p class="text-center">{{ product.title }}</p>
         </nuxt-link>
       </li>
     </ul>
-    <p class="mt-6 text-right">
+    <p class="mt-4 text-right">
       <span>共有{{ list.length }}条记录</span>
       <span class="cursor-pointer" @click="page = 1"> 首页 </span>
       <span class="cursor-pointer" @click="prev"> 上一页 </span>
@@ -37,7 +37,7 @@ export default {
   },
   data: () => ({
     list,
-    page: 2,
+    page: 1,
     pageSize: 12
   }),
   computed: {
