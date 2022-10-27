@@ -1,15 +1,17 @@
 <template>
-  <section>
+  <List :list="list" v-if="list.length" />
+  <section v-else>
     <img
-      class="mx-auto"
-      :src="productDetail.image"
-      :alt="productDetail.title"
+      :src="list.image"
+      :alt="list.title"
+      class="mx-auto rounded-md shadow-md"
     />
-    <p v-html="productDetail.content"></p>
+    <p v-html="list.content"></p>
   </section>
 </template>
 
 <script>
+import products from '@/contents/products.json'
 export default {
   head() {
     return {
@@ -17,9 +19,17 @@ export default {
     }
   },
   async asyncData({ params, $http }) {
-    const productDetail = await $http.$get(`/products/${params.id}.json`)
-    return {
-      productDetail
+    const found = products.find((product) => product.id == params.id)
+    if (found) {
+      const list = await $http.$get(`/products/${params.id}.json`)
+      return {
+        list
+      }
+    } else {
+      const list = products.filter((product) => product.cat_id == params.id)
+      return {
+        list
+      }
     }
   }
 }
