@@ -3,7 +3,7 @@
     <li v-for="item in list" :key="item.title">
       <div class="flex items-center justify-between">
         <nuxt-link
-          :to="item.link"
+          :to="`/news/${item.id}`"
           class="flex items-center hover:text-orange-500"
         >
           <svg
@@ -38,48 +38,7 @@ export default {
     }
   },
   data: () => ({
-    list: [
-      {
-        title: '皇室音响与您相约2016广州展',
-        link: '/news/133',
-        date: '2015-11-26'
-      },
-      {
-        title: '擦亮眼睛看功放',
-        link: '/news/132',
-        date: '2015-10-22'
-      },
-      {
-        title: '怎样进行KTV形象策划',
-        link: '/news/131',
-        date: '2014-06-21'
-      },
-      {
-        title: ' 廣州花都：中國音響之都初定升級路線圖',
-        link: '/news/129',
-        date: '2013-12-20'
-      },
-      {
-        title: '上万家演出公司倒闭',
-        link: '/news/128',
-        date: '2013-10-29'
-      },
-      {
-        title: '專業音響行業新曙光',
-        link: '/news/127',
-        date: '2013-10-23'
-      },
-      {
-        title: '音響系統維護的六大要點',
-        link: '/news/106',
-        date: '2011-10-14'
-      },
-      {
-        title: '熱烈祝賀皇室音響（廣州）有限公司網站正式上線',
-        link: '/news/108',
-        date: '2011-10-28'
-      }
-    ]
+    list: require('@/contents/news.json')
   })
 }
 </script>
