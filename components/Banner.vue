@@ -26,6 +26,7 @@ export default {
   async mounted() {
     await this.$nextTick()
     new Swiper(this.$refs.swiper, {
+      autoplay: true,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
