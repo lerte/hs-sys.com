@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/101", {data:[{list:[{id:235,cat_id:101,title:"数字调音台",image:"\u002Fproducts\u002F2016422160808.jpg"}]}],fetch:{},mutations:void 0});

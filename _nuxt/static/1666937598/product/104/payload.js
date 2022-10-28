@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/104", {data:[{list:[{id:248,cat_id:104,title:"DK-8250",image:"\u002Fproducts\u002F30172834.jpg"}]}],fetch:{},mutations:void 0});
