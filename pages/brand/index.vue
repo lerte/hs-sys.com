@@ -23,7 +23,7 @@
           <td class="px-4 border border-[#474748]">
             <div class="p-1">
               <nuxt-link :to="`/brand/${brand.id}`">
-                <img class="rounded shadow" :src="brand.image" />
+                <img class="rounded shadow" v-lazy="brand.image" />
               </nuxt-link>
             </div>
           </td>

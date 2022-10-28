@@ -2,8 +2,8 @@
   <List :list="list" v-if="list.length" />
   <section v-else>
     <img
-      :src="list.image"
       :alt="list.title"
+      v-lazy="list.image"
       class="mx-auto rounded-md shadow-md"
     />
     <p v-html="list.content"></p>

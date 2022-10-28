@@ -5,11 +5,15 @@
         class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
       >
         <nuxt-link to="/" class="flex items-center">
-          <img alt="Logo" class="h-6 sm:h-9" src="@/assets/images/logo.jpg" />
+          <img
+            alt="Logo"
+            class="h-6 sm:h-9"
+            v-lazy="require('@/assets/images/logo.jpg')"
+          />
           <img
             alt="Logo Text"
             class="h-6 sm:h-9"
-            src="@/assets/images/logo-text.jpg"
+            v-lazy="require('@/assets/images/logo-text.jpg')"
           />
         </nuxt-link>
         <div class="flex items-center lg:order-2">

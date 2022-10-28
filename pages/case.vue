@@ -1,7 +1,7 @@
 <template>
   <ul class="grid grid-cols-3 gap-4">
     <li v-for="(item, index) in list" :key="index">
-      <img :src="item" alt="成功案例" />
+      <img v-lazy="item" alt="成功案例" />
     </li>
   </ul>
 </template>

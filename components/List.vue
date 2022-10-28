@@ -8,8 +8,8 @@
       >
         <nuxt-link :to="`/product/${product.id}`">
           <img
-            :src="product.image"
             :alt="product.title"
+            v-lazy="product.image"
             class="h-52 w-full object-contain"
           />
           <p class="text-center">{{ product.title }}</p>
