@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Swiper, { Navigation, Pagination } from 'swiper'
+import Swiper from 'swiper/swiper-bundle.min'
 import 'swiper/swiper-bundle.min.css'
 
 export default {
@@ -20,7 +20,6 @@ export default {
   async mounted() {
     await this.$nextTick()
     new Swiper(this.$refs.swiper, {
-      modules: [Navigation, Pagination],
       ...this.options
     })
   }
