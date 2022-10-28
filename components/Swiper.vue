@@ -2,35 +2,26 @@
   <client-only>
     <div class="swiper bg-white dark:bg-gray-500" ref="swiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="@/assets/images/20131024183711.jpg" />
-        </div>
-        <div class="swiper-slide">
-          <img src="@/assets/images/20131024183718.jpg" />
-        </div>
-        <div class="swiper-slide">
-          <img src="@/assets/images/20131024183724.jpg" />
+        <div class="swiper-slide" v-for="slide in slides" :key="slide">
+          <img :src="slide" />
         </div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
     </div>
   </client-only>
 </template>
 
 <script>
-import Swiper from 'swiper/swiper-bundle.min'
+import Swiper, { Navigation, Pagination } from 'swiper'
 import 'swiper/swiper-bundle.min.css'
 
 export default {
+  name: 'Swiper',
+  props: ['slides', 'options'],
   async mounted() {
     await this.$nextTick()
     new Swiper(this.$refs.swiper, {
-      autoplay: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
-      }
+      modules: [Navigation, Pagination],
+      ...this.options
     })
   }
 }
@@ -39,7 +30,7 @@ export default {
 <style>
 .swiper {
   width: 100%;
-  height: 425px;
+  height: 100%;
 }
 .swiper-slide {
   text-align: center;
