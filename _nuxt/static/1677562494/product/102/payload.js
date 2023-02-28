@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/102", (function(a){return {data:[{list:[{id:243,cat_id:a,title:"HC-10+",image:"\u002Fproducts\u002F2018330101241.png"},{id:244,cat_id:a,title:"HC-12+",image:"\u002Fproducts\u002F2018330101338.png"}]}],fetch:{},mutations:void 0}}(102)));
