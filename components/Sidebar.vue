@@ -79,7 +79,7 @@ export default {
             to: '/product/91'
           },
           {
-            title: 'MA系列',
+            title: 'K系列',
             to: '/product/99'
           },
           {
