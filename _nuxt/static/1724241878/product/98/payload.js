@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/98", {data:[{list:[{id:214,cat_id:98,title:"GLC2800",image:"\u002Fproducts\u002F2152151.jpg"}]}],fetch:{},mutations:void 0});

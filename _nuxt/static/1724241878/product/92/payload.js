@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/92", (function(a){return {data:[{list:[{id:202,cat_id:a,title:"BR-2000",image:"\u002Fproducts\u002F2018329190253.png"},{id:228,cat_id:a,title:"M-7",image:"\u002Fproducts\u002F201738174251.png"}]}],fetch:{},mutations:void 0}}(92)));

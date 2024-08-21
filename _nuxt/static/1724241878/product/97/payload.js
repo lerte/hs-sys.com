@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/97", (function(a){return {data:[{list:[{id:222,cat_id:a,title:"KP-610",image:"\u002Fproducts\u002F201447172704.png"},{id:223,cat_id:a,title:"KP-612",image:"\u002Fproducts\u002F201447173758.png"}]}],fetch:{},mutations:void 0}}(97)));

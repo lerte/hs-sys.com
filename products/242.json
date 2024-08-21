@@ -1,0 +1,7 @@
+{
+  "id": 242,
+  "cat_id": 86,
+  "title": "KM-260",
+  "image": "/products/201739164724.jpg",
+  "content": "<table border='0' width='100%' cellpadding='0' cellspacing='0'><tbody><tr><td align='left'><span id='ctl00_ContentPlaceHolder3_Label1'><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KM-260</p><p>• 额定输出功率/连续平均功率/ 1KHz/总谐波失真：≤1%<br>• 立体声（8Ω）： KM-260:5x450W+650W<br>• 频率响应（8Ω）：（ -10dB） 20Hz～20KHz±0.25dB<br>• 信噪比： 20Hz～20KHz 8Ω负载,A计权 &gt;105dB<br>• 阻尼系数：（8Ω/ 1KHz）PA-4500:&gt;350<br>• 转换速率：PA-4500:30V/μs<br>• 输入灵敏度：（8Ω）+2.2dBu(1.0Vrms)<br>• 最大输入电平： +22.0dBu(10.0Vrms)<br>• 保护电路：输入浪涌限制,散热器和变压器温度保护,输出短路保护,输出直流保护,输出过载电流保护,主保险丝保护,开关机哑音保护,射频干扰保护<br>• 冷却方式：/PA-4500:直流温控变速风扇，空气前后流动。<br>面板指示：电源工作模式，削波/压限，信号保护<br>• 信号和工作模式：独立单声道模式。<br>• 机柜适配装机高度： 3U</p></span></td></tr></tbody></table>"
+}

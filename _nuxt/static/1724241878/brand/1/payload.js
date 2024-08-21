@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/brand/1", {data:[{list:{id:1,title:"品牌代理",image:"\u002Fbrands\u002F20131029110235.jpg",content:"代理特寶聲音響"}}],fetch:{},mutations:void 0});

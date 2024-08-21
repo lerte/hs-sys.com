@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/102", (function(a,b){return {data:[{list:[{id:243,cat_id:a,title:"TCS-102",image:b},{id:244,cat_id:a,title:"TCS-122",image:b}]}],fetch:{},mutations:void 0}}(102,"\u002Fproducts\u002F20240821194437.jpg")));

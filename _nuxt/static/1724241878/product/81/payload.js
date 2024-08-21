@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/product/81", (function(a){return {data:[{list:[{id:209,cat_id:a,title:"LA-208",image:"\u002Fproducts\u002F2018511131237.png"},{id:210,cat_id:a,title:"LA-118",image:"\u002Fproducts\u002F2018511130045.png"},{id:237,cat_id:a,title:"LA-210",image:"\u002Fproducts\u002F2018511131256.png"}]}],fetch:{},mutations:void 0}}(81)));
