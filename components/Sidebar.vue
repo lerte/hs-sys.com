@@ -17,7 +17,7 @@ export default {
         title: '專業音箱',
         children: [
           {
-            title: 'HC系列',
+            title: 'TCS系列',
             to: '/product/102'
           },
           {
